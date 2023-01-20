@@ -22,13 +22,15 @@ Create a user program named “du” that prints a list of the files in the curr
 
 (you must include a single newline character after your final line)
 Each line is formatted as “%d %s” – “{size in bytes}{space}{filename}”
-The final line is the sum of the sizes of all files in the directory where du was called.
-Expected Behaviors:
+The final line is the sum of the sizes of all files in the directory where du was called.  
+
+**Expected Behaviors:**
 Size is considered to be the byte count stored in the xv6 stat structure.
 Only T_FILE types should be included in the output and in the calculation of the directory size.
 This implementation (with no arguments or flags) should not recurse into subdirectories.
-Your program should be able to be run from within any directory within xv6, and to report the files within that directory correctly.
-Hints:
+Your program should be able to be run from within any directory within xv6, and to report the files within that directory correctly.  
+
+**Hints:**
 Analyze the existing ls program to understand how its output relates to this new program’s requirements, as well as for ideas about how to structure your own program. 
 
 
